@@ -1,23 +1,10 @@
 {
   "id_map": {},
-  "mod_elements": [
-    {
-      "name": "M",
-      "type": "mob",
-      "sortid": 1,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "m"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "entity.spiritualism.m": "Kodama",
-      "item.spiritualism.m": "Kodama Spawn Egg"
-    }
+    "en_us": {}
   },
   "workspaceSettings": {
     "modid": "spiritualism",
