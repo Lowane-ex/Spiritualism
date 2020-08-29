@@ -1,0 +1,28 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamond_pickaxe",
+    "customModelName": "Normal",
+    "name": "Soul Pick",
+    "specialInfo": [
+      "Вы слышите треск камня"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Spiritualism"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 6,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 30,
+    "damageVsEntity": 6.0,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

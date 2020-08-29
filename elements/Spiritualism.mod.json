@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Spiritualism",
+    "icon": {
+      "value": "CUSTOM:WoodSoul"
+    },
+    "showSearch": true
+  }
+}

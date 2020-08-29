@@ -1,10 +1,193 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Spiritualism",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spiritualism"
+    },
+    {
+      "name": "SpiritBirch",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spirit_birch"
+    },
+    {
+      "name": "SpiritTree",
+      "type": "structure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spirit_tree"
+    },
+    {
+      "name": "SpiritBirchBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spirit_birch_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoodSoul",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_soul"
+    },
+    {
+      "name": "SoulOrbRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_orb_recipe"
+    },
+    {
+      "name": "SoulOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_ore"
+    },
+    {
+      "name": "SoulPick",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_pick"
+    },
+    {
+      "name": "SoulOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulOrRightClickedInAir",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_or_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulOrb",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_orb"
+    },
+    {
+      "name": "StoneSoul",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_soul"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "ru_ru": {
+      "block.spiritualism.spirit_birch": "Spirit birch",
+      "block.spiritualism.soul_ore": "Камень душ",
+      "item.spiritualism.soul_pick": "Soul Pick",
+      "item.spiritualism.wood_soul": "Душа древа",
+      "itemGroup.tabspiritualism": "Spiritualism",
+      "item.spiritualism.soul_orb": "Сфера духов",
+      "item.spiritualism.stone_soul": "Душа камня"
+    },
+    "en_us": {
+      "block.spiritualism.spirit_birch": "Spirit birch",
+      "block.spiritualism.soul_ore": "Камень душ",
+      "item.spiritualism.soul_pick": "Soul Pick",
+      "cbx": "",
+      "item.spiritualism.wood_soul": "Душа древа",
+      "itemGroup.tabspiritualism": "Spiritualism",
+      "item.spiritualism.soul_orb": "Сфера духов",
+      "item.spiritualism.stone_soul": "Душа камня"
+    }
   },
   "workspaceSettings": {
     "modid": "spiritualism",

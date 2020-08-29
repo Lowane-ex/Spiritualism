@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "spiritualism:blocks/original_birch_wood",
+    "up": "spiritualism:blocks/original_birch_wood",
+    "north": "spiritualism:blocks/b",
+    "east": "spiritualism:blocks/b",
+    "south": "spiritualism:blocks/b",
+    "west": "spiritualism:blocks/b",
+    "particle": "spiritualism:blocks/original_birch_wood"
+  }
+}
